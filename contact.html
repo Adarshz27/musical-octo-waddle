@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Palette Studio — Where Every Face Becomes a Masterpiece." name="description"/>
+<title>Contact | Palette Studio</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Playfair+Display:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/></head><body id="top">
+<div class="loader"><div class="loader-logo">PS</div><span>Palette Studio</span></div>
+<header class="site-header">
+<a class="brand" href="index.html#home"><span class="brand-mark">PS</span><span>Palette Studio</span></a>
+<a class="nav-cta" href="booking.html">Book Now <span>↗</span></a>
+<button aria-expanded="false" aria-label="Open menu" class="menu-toggle" id="menuToggle"><span></span><span></span></button>
+</header>
+<nav aria-label="Main navigation" class="nav" id="nav">
+<a href="index.html#home">Home</a>
+<a href="index.html#about">About</a>
+<a href="services.html">Services</a>
+<a href="portfolio.html">Portfolio</a>
+<a href="experience.html">Experience</a>
+<a href="index.html#reviews">Reviews</a>
+<a href="booking.html">Booking</a>
+<a href="contact.html">Contact</a>
+</nav>
+<main class="page-main menu-page-main"><section class="contact section menu-page-section" id="contact">
+<div class="contact-grid">
+<div class="contact-intro reveal">
+<div class="section-number">07 / CONTACT</div>
+<p class="eyebrow">GET IN TOUCH</p>
+<h2>Let's make<br/><em>something beautiful.</em></h2>
+<p class="contact-copy">Tell us about your occasion and we’ll get back to you on WhatsApp.</p>
+</div>
+<form class="contact-form reveal" id="contactForm" novalidate="">
+<div class="form-field">
+<label for="clientName">Full Name <span>*</span></label>
+<input autocomplete="name" id="clientName" name="name" required="" type="text"/>
+<small class="field-error" data-error-for="clientName"></small>
+</div>
+<div class="form-row">
+<div class="form-field">
+<label for="clientPhone">Phone / WhatsApp <span>*</span></label>
+<input autocomplete="tel" id="clientPhone" inputmode="numeric" name="phone" pattern="[0-9 +()-]{10,15}" required="" type="tel"/>
+<small class="field-error" data-error-for="clientPhone"></small>
+</div>
+<div class="form-field">
+<label for="clientEmail">Email</label>
+<input autocomplete="email" id="clientEmail" name="email" type="email"/>
+<small class="field-error" data-error-for="clientEmail"></small>
+</div>
+</div>
+<div class="form-row">
+<div class="form-field">
+<label for="service">Service <span>*</span></label>
+<select id="service" name="service" required="">
+<option value="">Select a service</option>
+<option>Bridal Glam</option>
+<option>Engagement Look</option>
+<option>Reception Glow</option>
+<option>Party Glam</option>
+<option>HD Makeup</option>
+<option>Hair &amp; Draping</option>
+<option>Other</option>
+</select>
+<small class="field-error" data-error-for="service"></small>
+</div>
+<div class="form-field">
+<label for="eventDate">Event Date <span>*</span></label>
+<input id="eventDate" name="date" required="" type="date"/>
+<small class="field-error" data-error-for="eventDate"></small>
+</div>
+</div>
+<div class="form-field">
+<label for="clientMessage">Message / Requirements</label>
+<textarea id="clientMessage" name="message" placeholder="Tell us about your occasion, preferred time, location, etc." rows="4"></textarea>
+<small class="field-error" data-error-for="clientMessage"></small>
+</div>
+<button class="btn btn-dark form-submit" type="submit">Send Enquiry on WhatsApp <span>↗</span></button>
+<p class="form-note">Required fields are marked *. Your enquiry will open WhatsApp with the details filled in.</p>
+<p aria-live="polite" class="form-status" id="formStatus" role="status"></p>
+</form>
+</div>
+</section></main>
+<footer class="footer">
+<a class="brand" href="index.html#home"><span class="brand-mark">PS</span><span>Palette Studio</span></a>
+<p>Where Every Face Becomes a Masterpiece.</p>
+<div><a href="#top">Back to top ↑</a></div>
+</footer>
+<div class="cursor-dot" id="cursorDot"></div><div class="cursor-ring" id="cursorRing"></div>
+<script src="script.js"></script></body></html>
